@@ -1,0 +1,25 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solar-model"
+version = "0.1.0"
+description = "A solar energy modeling and risk simulation package"
+readme = "README.md"
+authors = [{ name="Your Name", email="you@example.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "plotly",
+  "scipy",
+  "statsmodels",
+  "scikit-learn"
+]
+
+[project.scripts]
+solar = "solar.main:main"
