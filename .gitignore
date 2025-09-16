@@ -1,27 +1,29 @@
-# Python
-__pycache__/
-*.pyc
-.venv/
-.env
 
 # Data/cache — keep these OUT of git
-*.nc
-*.zarr/
+# Notebooks checkpoints
+# OS/editor
+# Python
+*.egg-info/
 *.h5
 *.hdf5
-*.parquet
-*.npz
+*.nc
 *.npy
+*.npz
+*.parquet
+*.pyc
+*.pyd
+*.pyo
+*.zarr/
+.DS_Store
+.env
+.idea/
+.ipynb_checkpoints/
+.venv/
+.vscode/
+__pycache__/
+build/
 data/
+dist/
+logs/
 output/
 tmp/
-logs/
-
-# Notebooks checkpoints
-.ipynb_checkpoints/
-
-# OS/editor
-.DS_Store
-.idea/
-.vscode/
-
