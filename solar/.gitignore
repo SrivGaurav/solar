@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data/cache (DON'T push big data)
+*.nc
+*.zarr/
+*.h5
+*.hdf5
+*.csv
+*.parquet
+*.npz
+*.npy
+tmp/
+data/
+output/
+logs/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
