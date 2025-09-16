@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data/cache — keep these OUT of git
+*.nc
+*.zarr/
+*.h5
+*.hdf5
+*.parquet
+*.npz
+*.npy
+data/
+output/
+tmp/
+logs/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
